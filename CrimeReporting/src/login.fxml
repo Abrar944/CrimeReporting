@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="978.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="signUp" layoutX="323.0" layoutY="119.0" prefHeight="47.0" prefWidth="204.0" style="-fx-border-color: black; -fx-border-radius: 50;" text="    SignUp">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label id="login" layoutX="302.0" layoutY="191.0" prefHeight="18.0" prefWidth="50.0" text="Login-:" />
+      <Label id="paaword" layoutX="288.0" layoutY="227.0" prefHeight="18.0" prefWidth="71.0" text="Password-:" />
+      <TextField id="username" layoutX="375.0" layoutY="187.0" onAction="#username" promptText="Enter UserName" />
+      <PasswordField id="password" layoutX="378.0" layoutY="214.0" onAction="#password" promptText="Enter Password" />
+      <View />
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+      <Button id="forgotbutton" layoutX="349.0" layoutY="270.0" mnemonicParsing="false" onAction="#forgetPassword" prefHeight="33.0" prefWidth="152.0" text="ForgetPassword?" />
+      <Button layoutX="310.0" layoutY="370.0" mnemonicParsing="false" onAction="#register" prefHeight="61.0" prefWidth="282.0" style="-fx-border-color: black; -fx-border-radius: 30; -fx-background-color: pink;" text="Register Here !" />
+   </children>
+</AnchorPane>
